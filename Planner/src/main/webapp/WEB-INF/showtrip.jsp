@@ -35,16 +35,12 @@
       type="text"
       placeholder="Search Box"
     />
-    <!-- <div id="floating-panel">
-      <input id="hide-markers" type="button" value="Hide Markers" />
-      <input id="show-markers" type="button" value="Show Markers" />
-      <input id="delete-markers" type="button" value="Delete Markers" />
-    </div> -->
+
     <div id="map" style="height:820px; width:700px"></div>
 
 
    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByFfqIXpaqPg_2sHHvc_ncS8RUyzg_C9E&callback=initAutocomplete&libraries=places&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initAutocomplete&libraries=places&v=weekly"
       async
     ></script>
     
